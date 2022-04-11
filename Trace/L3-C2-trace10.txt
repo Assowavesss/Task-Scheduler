@@ -1,0 +1,75 @@
+All links of graph : 
+0   --> 1   = 0
+1   --> 2   = 2
+1   --> 4   = 2
+1   --> 5   = 2
+2   --> 3   = 3
+2   --> 4   = 3
+2   --> 8   = 3
+3   --> 7   = 5
+4   --> 5   = 6
+4   --> 6   = 6
+4   --> 8   = 6
+5   --> 6   = 2
+5   --> 7   = 2
+6   --> 9   = 1
+7   --> 8   = 6
+8   --> 9   = 1
+
+Adjency Matrix :
+MA |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  
+0  |  0  |  1  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  
+1  |  0  |  0  |  1  |  0  |  1  |  1  |  0  |  0  |  0  |  0  |  
+2  |  0  |  0  |  0  |  1  |  1  |  0  |  0  |  0  |  1  |  0  |  
+3  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  0  |  0  |  
+4  |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  0  |  1  |  0  |  
+5  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  0  |  0  |  
+6  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  
+7  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  0  |  
+8  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  
+9  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  
+
+Value Matrix :
+MV |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  
+0  |  *  |  0  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  
+1  |  *  |  *  |  2  |  *  |  2  |  2  |  *  |  *  |  *  |  *  |  
+2  |  *  |  *  |  *  |  3  |  3  |  *  |  *  |  *  |  3  |  *  |  
+3  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  5  |  *  |  *  |  
+4  |  *  |  *  |  *  |  *  |  *  |  6  |  6  |  *  |  6  |  *  |  
+5  |  *  |  *  |  *  |  *  |  *  |  *  |  2  |  2  |  *  |  *  |  
+6  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  1  |  
+7  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  6  |  *  |  
+8  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  1  |  
+9  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  
+
+Verification of directed graph !
+Verification of if the graph contain cycle...
+Verification of if the graph contain negative weight...
+There is no cycle
+There is no negative weigth
+Verify weigth of first vertex
+weigth of first vertex is 0
+Verify if there is more than one entry...
+entry : 0 
+There is just one entry
+Verify if there is more than one exit....
+Exit :9 
+There is just one exit
+All weigth of each vertex is unique
+The graph is a directed graph !
+
+Calendar : 
+Vertex 0   | Rank 0   | Early 0   | Later 0   | Margin 0
+Vertex 1   | Rank 1   | Early 0   | Later 0   | Margin 0
+Vertex 2   | Rank 2   | Early 2   | Later 2   | Margin 0
+Vertex 3   | Rank 3   | Early 5   | Later 8   | Margin 3
+Vertex 4   | Rank 3   | Early 5   | Later 5   | Margin 0
+Vertex 5   | Rank 4   | Early 11  | Later 11  | Margin 0
+Vertex 6   | Rank 5   | Early 13  | Later 19  | Margin 6
+Vertex 7   | Rank 5   | Early 13  | Later 13  | Margin 0
+Vertex 8   | Rank 6   | Early 19  | Later 19  | Margin 0
+Vertex 9   | Rank 7   | Early 20  | Later 20  | Margin 0
+
+Critical path !
+0->1->2->4->5->7->8->9
+

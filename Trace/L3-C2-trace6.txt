@@ -1,0 +1,97 @@
+All links of graph : 
+0   --> 1   = 0
+0   --> 2   = 0
+1   --> 3   = 10
+1   --> 4   = 10
+1   --> 12  = 10
+2   --> 3   = 10
+2   --> 4   = 10
+3   --> 9   = 9
+3   --> 10  = 9
+4   --> 5   = 5
+4   --> 7   = 5
+4   --> 9   = 5
+5   --> 6   = 4
+5   --> 8   = 4
+6   --> 11  = 2
+6   --> 12  = 2
+7   --> 8   = 2
+8   --> 11  = 4
+9   --> 8   = 8
+9   --> 10  = 8
+10  --> 11  = 12
+11  --> 13  = 2
+12  --> 13  = 20
+
+Adjency Matrix :
+MA |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10 |  11 |  12 |  13 |  
+0  |  0  |  1  |  1  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  
+1  |  0  |  0  |  0  |  1  |  1  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  0  |  
+2  |  0  |  0  |  0  |  1  |  1  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  
+3  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  0  |  0  |  0  |  
+4  |  0  |  0  |  0  |  0  |  0  |  1  |  0  |  1  |  0  |  1  |  0  |  0  |  0  |  0  |  
+5  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  0  |  1  |  0  |  0  |  0  |  0  |  0  |  
+6  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  0  |  
+7  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  0  |  0  |  0  |  0  |  0  |  
+8  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  0  |  0  |  
+9  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  0  |  1  |  0  |  0  |  0  |  
+10 |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  0  |  0  |  
+11 |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  
+12 |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  
+13 |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  
+
+Value Matrix :
+MV |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10 |  11 |  12 |  13 |  
+0  |  *  |  0  |  0  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  
+1  |  *  |  *  |  *  |  10 |  10 |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  10 |  *  |  
+2  |  *  |  *  |  *  |  10 |  10 |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  
+3  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  9  |  9  |  *  |  *  |  *  |  
+4  |  *  |  *  |  *  |  *  |  *  |  5  |  *  |  5  |  *  |  5  |  *  |  *  |  *  |  *  |  
+5  |  *  |  *  |  *  |  *  |  *  |  *  |  4  |  *  |  4  |  *  |  *  |  *  |  *  |  *  |  
+6  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  2  |  2  |  *  |  
+7  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  2  |  *  |  *  |  *  |  *  |  *  |  
+8  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  4  |  *  |  *  |  
+9  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  8  |  *  |  8  |  *  |  *  |  *  |  
+10 |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  12 |  *  |  *  |  
+11 |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  2  |  
+12 |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  20 |  
+13 |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  *  |  
+
+Verification of directed graph !
+Verification of if the graph contain cycle...
+Verification of if the graph contain negative weight...
+There is no cycle
+There is no negative weigth
+Verify weigth of first vertex
+weigth of first vertex is 0
+Verify if there is more than one entry...
+entry : 0 
+There is just one entry
+Verify if there is more than one exit....
+Exit :13 
+There is just one exit
+All weigth of each vertex is unique
+The graph is a directed graph !
+
+Calendar : 
+Vertex 0   | Rank 0   | Early 0   | Later 0   | Margin 0
+Vertex 1   | Rank 1   | Early 0   | Later 0   | Margin 0
+Vertex 2   | Rank 1   | Early 0   | Later 0   | Margin 0
+Vertex 3   | Rank 2   | Early 10  | Later 10  | Margin 0
+Vertex 4   | Rank 2   | Early 10  | Later 10  | Margin 0
+Vertex 5   | Rank 3   | Early 15  | Later 15  | Margin 0
+Vertex 6   | Rank 4   | Early 19  | Later 19  | Margin 0
+Vertex 7   | Rank 3   | Early 15  | Later 33  | Margin 18
+Vertex 8   | Rank 4   | Early 27  | Later 35  | Margin 8
+Vertex 9   | Rank 3   | Early 19  | Later 19  | Margin 0
+Vertex 10  | Rank 4   | Early 27  | Later 27  | Margin 0
+Vertex 11  | Rank 5   | Early 39  | Later 39  | Margin 0
+Vertex 12  | Rank 5   | Early 21  | Later 21  | Margin 0
+Vertex 13  | Rank 6   | Early 41  | Later 41  | Margin 0
+
+Critical path !
+0->1->3->9->10->11->13
+0->1->4->5->6->12->13
+0->2->3->9->10->11->13
+0->2->4->5->6->12->13
+
